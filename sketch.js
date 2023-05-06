@@ -19,6 +19,10 @@ let different = [
   "https://samesamebutdifferent-11.netlify.app/",
   "https://samesamebutdifferent-12.netlify.app/",
 ];
+let txt =
+  "These identities are from friends, people who are artists, designers, baristas, actors, home cooks, basketball fans, dog lovers, travelers, runners, wives & husbands that I was fortunate to meet.";
+
+let words = [];
 
 function preload() {
   logo = loadImage("logo/logo-ngang.png");
@@ -54,12 +58,25 @@ function draw() {
   drawId();
 
   let opacity = map(mouseY, height / 4, height, 0.25, 1);
-  div.style("font-size", float(width / 75) + "px");
-  div.position(width / 2 - width / 6.8, width / 2);
+  div.style("font-size", float(width / 90) + "px");
+  div.position(width / 2 - width / 8.3, width / 2);
   div.style("z-index", 5);
   div.style("color", "#FFFFFF");
   div.style("font-family", "Noto Sans Mono");
   div.style("opacity", float(opacity));
+
+  push();
+  translate(width / 2 - 600/2, height / 2 + height / 3.2);
+  drawDescription();
+  pop();
+}
+
+function drawDescription() {
+  textFont("Noto Sans Mono");
+  textSize(14);
+  textAlign(CENTER);
+  fill(255, 125);
+  text(txt, 0, 0, 600, 500);
 }
 
 function drawId() {
@@ -71,7 +88,7 @@ function drawId() {
   for (let i = 0; i < 8; i++) {
     gif[i].style("opacity", float(opacity));
     gif[i].size(gifW, gifH);
-    gif[i].position(gridW, space + width / 9);
+    gif[i].position(gridW, space + width / 12);
     gridW += gifW;
 
     if (gridW > gifW * 3) {
