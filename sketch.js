@@ -52,12 +52,12 @@ function draw() {
   }
 
   imageMode(CORNER);
-  tint(255, map(mouseY, height / 4, height, 130, 255));
+  tint(255, map(mouseY, 0, height, 100, 255));
   image(logo, -width / 150, -width / 180, width + 20, width / 16);
 
   drawId();
 
-  let opacity = map(mouseY, 0, height, 0.25, 1);
+  let opacity = map(mouseY, 0, height, 0.2, 1);
   div.style("font-size", float(width / 90) + "px");
   div.position(width / 2 - width / 7.2, width / 3 + height/3);
   div.style("z-index", 5);
