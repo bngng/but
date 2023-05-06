@@ -57,7 +57,7 @@ function draw() {
 
   drawId();
 
-  let opacity = map(mouseY, height / 4, height, 0.25, 1);
+  let opacity = map(mouseY, 0, height, 0.25, 1);
   div.style("font-size", float(width / 90) + "px");
   div.position(width / 2 - width / 7.3, width / 4.2 + height/2);
   div.style("z-index", 5);
