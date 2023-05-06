@@ -57,16 +57,16 @@ function draw() {
 
   drawId();
 
-  let opacity = map(mouseY, 0, height, 0.2, 1);
+  let opacity = map(mouseY, height / 4, height, 0.25, 1);
   div.style("font-size", float(width / 90) + "px");
-  div.position(width / 2 - width / 7.2, width / 3 + height/3);
+  div.position(width / 2 - width / 8.3, width / 4.5 + height/2);
   div.style("z-index", 5);
   div.style("color", "#FFFFFF");
   div.style("font-family", "Noto Sans Mono");
   div.style("opacity", float(opacity));
 
   push();
-  translate(width / 2 - 600/2, height / 2 + height / 3);
+  translate(width / 2 - 600/2, width/5.8 + height / 2);
   drawDescription();
   pop();
 }
