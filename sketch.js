@@ -52,7 +52,7 @@ function draw() {
   }
 
   imageMode(CORNER);
-  tint(255, map(mouseY, 0, height, 80, 255));
+  tint(255, map(mouseY, 0, height, 65, 255));
   image(logo, -width / 150, -width / 180, width + 20, width / 16);
 
   drawId();
