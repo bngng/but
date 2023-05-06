@@ -6,18 +6,18 @@ let gridW = 0;
 let div, div2;
 let d;
 let different = [
-  "https://en.wikipedia.org/wiki/Instant_noodles",
-  "https://en.wikipedia.org/wiki/Ramen",
-  "https://en.wikipedia.org/wiki/Soy_sauce",
-  "https://en.wikipedia.org/wiki/Soybean",
-  "https://en.wikipedia.org/wiki/Salt",
-  "https://en.wikipedia.org/wiki/Seasoning",
-  "https://en.wikipedia.org/wiki/Black_pepper",
-  "https://en.wikipedia.org/wiki/Chili_pepper",
-  "https://en.wikipedia.org/wiki/Spice",
-  "https://en.wikipedia.org/wiki/Vanilla",
-  "https://en.wikipedia.org/wiki/Caramel",
-  "https://en.wikipedia.org/wiki/Cream",
+  "https://samesamebutdifferent-01.netlify.app/",
+  "https://samesamebutdifferent-02.netlify.app/",
+  "https://samesamebutdifferent-03.netlify.app/",
+  "https://samesamebutdifferent-04.netlify.app/",
+  "https://samesamebutdifferent-05.netlify.app/",
+  "https://samesamebutdifferent-06.netlify.app/",
+  "https://samesamebutdifferent-07.netlify.app/",
+  "https://samesamebutdifferent-08.netlify.app/",
+  "https://samesamebutdifferent-09.netlify.app/",
+  "https://samesamebutdifferent-10.netlify.app/",
+  "https://samesamebutdifferent-11.netlify.app/",
+  "https://samesamebutdifferent-12.netlify.app/",
 ];
 
 function preload() {
@@ -55,7 +55,7 @@ function draw() {
 
   let opacity = map(mouseY, height / 4, height, 0.25, 1);
   div.style("font-size", float(width / 75) + "px");
-  div.position(width / 2 - width / 7.5, width / 2);
+  div.position(width / 2 - width / 7, width / 2);
   div.style("z-index", 5);
   div.style("color", "#FFFFFF");
   div.style("font-family", "Noto Sans Mono");
@@ -83,7 +83,7 @@ function drawId() {
 function mousePressed() {
   if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < width / 15) {
     location.reload();
-    location.href = "https://editor.p5js.org/aj.nguyen93/full/JbzRKq2FS";
+    location.href = "https://samesame.netlify.app/";
   }
   if (d < 100) {
     location.reload();
