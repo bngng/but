@@ -59,7 +59,7 @@ function draw() {
 
   let opacity = map(mouseY, height / 4, height, 0.25, 1);
   div.style("font-size", float(width / 90) + "px");
-  div.position(width / 2 - width / 8.3, width / 1.95);
+  div.position(width / 2 - width / 8.3, width / 3 + height/5);
   div.style("z-index", 5);
   div.style("color", "#FFFFFF");
   div.style("font-family", "Noto Sans Mono");
