@@ -7,17 +7,11 @@ let div, div2;
 let d;
 let different = [
   "https://samesamebutdifferent-01.netlify.app/",
-  "https://samesamebutdifferent-02.netlify.app/",
   "https://samesamebutdifferent-03.netlify.app/",
-  "https://samesamebutdifferent-04.netlify.app/",
-  "https://samesamebutdifferent-05.netlify.app/",
-  "https://samesamebutdifferent-06.netlify.app/",
-  "https://samesamebutdifferent-07.netlify.app/",
   "https://samesamebutdifferent-08.netlify.app/",
-  "https://samesamebutdifferent-09.netlify.app/",
+  "https://samesamebutdifferent-06.netlify.app/",
   "https://samesamebutdifferent-10.netlify.app/",
-  "https://samesamebutdifferent-11.netlify.app/",
-  "https://samesamebutdifferent-12.netlify.app/",
+  "https://samesamebutdifferent-05.netlify.app/",
 ];
 let txt =
   "These identities are from friends, people who are artists, designers, baristas, musicians, home cooks, basketball fans, dog lovers, travelers, runners, wives & husbands that I was fortunate to meet.";
