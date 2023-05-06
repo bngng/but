@@ -59,14 +59,14 @@ function draw() {
 
   let opacity = map(mouseY, height / 4, height, 0.25, 1);
   div.style("font-size", float(width / 90) + "px");
-  div.position(width / 2 - width / 8.3, width / 2);
+  div.position(width / 2 - width / 8.3, width / 1.95);
   div.style("z-index", 5);
   div.style("color", "#FFFFFF");
   div.style("font-family", "Noto Sans Mono");
   div.style("opacity", float(opacity));
 
   push();
-  translate(width / 2 - 600/2, height / 2 + height / 3.2);
+  translate(width / 2 - 600/2, height / 2 + height / 3);
   drawDescription();
   pop();
 }
@@ -88,7 +88,7 @@ function drawId() {
   for (let i = 0; i < 8; i++) {
     gif[i].style("opacity", float(opacity));
     gif[i].size(gifW, gifH);
-    gif[i].position(gridW, space + width / 12);
+    gif[i].position(gridW, space + width / 11);
     gridW += gifW;
 
     if (gridW > gifW * 3) {
