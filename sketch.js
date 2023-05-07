@@ -14,7 +14,7 @@ let different = [
   "https://samesamebutdifferent-05.netlify.app/",
 ];
 let txt =
-  "These identities are from friends, people who are artists, designers, baristas, musicians, home cooks, basketball fans, dog lovers, travelers, runners, wives & husbands that I was fortunate to meet.";
+  "These identities are from friends, people who are artists, designers, baristas, musicians, home cooks, basketball fans, dog lovers, travelers, runners, wives & husbands; who are all the same as human-beings, but different as individuals.";
 
 let words = [];
 
