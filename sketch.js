@@ -12,6 +12,7 @@ let different = [
   "https://samesamebutdifferent-06.netlify.app/",
   "https://samesamebutdifferent-10.netlify.app/",
   "https://samesamebutdifferent-05.netlify.app/",
+  "https://samesamebutdifferent-11.netlify.app/"
 ];
 let txt =
   "These identities are from friends, people who are artists, designers, baristas, musicians, home cooks, basketball fans, dog lovers, travelers, runners, wives & husbands; who are all the same as human-beings, but different as individuals.";
